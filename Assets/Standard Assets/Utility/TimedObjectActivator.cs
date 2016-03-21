@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
+=======
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -80,7 +83,11 @@ namespace UnityStandardAssets.Utility
         private IEnumerator ReloadLevel(Entry entry)
         {
             yield return new WaitForSeconds(entry.delay);
+<<<<<<< HEAD
             SceneManager.LoadScene(SceneManager.GetSceneAt(0).path);
+=======
+            Application.LoadLevel(Application.loadedLevel);
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
         }
     }
 }

@@ -179,7 +179,11 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+<<<<<<< HEAD
     m_RotationOrder: 4
+=======
+    m_RotationOrder: 0
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -217,7 +221,10 @@ MonoBehaviour:
     MaximumX: 90
     smooth: 0
     smoothTime: 5
+<<<<<<< HEAD
     lockCursor: 1
+=======
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
   m_UseFovKick: 1
   m_FovKick:
     Camera: {fileID: 0}
@@ -309,7 +316,23 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
+<<<<<<< HEAD
     m_Modifications: []
+=======
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}

@@ -41,8 +41,12 @@ namespace UnityStandardAssets.Utility
             // turn off emission
             foreach (var system in systems)
             {
+<<<<<<< HEAD
                 var emission = system.emission;
                 emission.enabled = false;
+=======
+                system.enableEmission = false;
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
             }
             BroadcastMessage("Extinguish", SendMessageOptions.DontRequireReceiver);
 
