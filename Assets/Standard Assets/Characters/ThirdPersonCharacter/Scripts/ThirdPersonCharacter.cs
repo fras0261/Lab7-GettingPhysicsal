@@ -89,7 +89,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			{
 				Ray crouchRay = new Ray(m_Rigidbody.position + Vector3.up * m_Capsule.radius * k_Half, Vector3.up);
 				float crouchRayLength = m_CapsuleHeight - m_Capsule.radius * k_Half;
+<<<<<<< HEAD
 				if (Physics.SphereCast(crouchRay, m_Capsule.radius * k_Half, crouchRayLength, ~0, QueryTriggerInteraction.Ignore))
+=======
+				if (Physics.SphereCast(crouchRay, m_Capsule.radius * k_Half, crouchRayLength))
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
 				{
 					m_Crouching = true;
 					return;
@@ -107,7 +111,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			{
 				Ray crouchRay = new Ray(m_Rigidbody.position + Vector3.up * m_Capsule.radius * k_Half, Vector3.up);
 				float crouchRayLength = m_CapsuleHeight - m_Capsule.radius * k_Half;
+<<<<<<< HEAD
 				if (Physics.SphereCast(crouchRay, m_Capsule.radius * k_Half, crouchRayLength, ~0, QueryTriggerInteraction.Ignore))
+=======
+				if (Physics.SphereCast(crouchRay, m_Capsule.radius * k_Half, crouchRayLength))
+>>>>>>> 860761ec8dfa20c58b2713e85442b2aaf7e13a15
 				{
 					m_Crouching = true;
 				}
